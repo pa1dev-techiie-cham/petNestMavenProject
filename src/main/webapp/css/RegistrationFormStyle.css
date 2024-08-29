@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    background-color: #f3e5f5; /* Light violet background */
+    height: 100vh;
+    font-family: Arial, sans-serif; /* Modern font */
+    display: grid;
+    place-items: center; /* Center the content vertically and horizontally */
+}
+
+/* Main container styling */
+.mainContainer {
+    border: 3px solid #7e57c2; /* Violet border */
+    width: 30vw; /* Width of the container */
+    padding: 1rem;
+    background-color: #ffffff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(126, 87, 194, 0.5); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    color: #7e57c2; /* Violet text color */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Hover effect for main container */
+.mainContainer:hover {
+    box-shadow: 0 0 20px rgba(126, 87, 194, 0.7); /* Darker shadow on hover */
+}
+
+/* Centering text within container */
+.center {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Input field row styling */
+.inputFieldRow {
+    margin-bottom: 0.5rem;
+}
+
+/* Label styling */
+.inputFieldRow label {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #5e35b1; /* Darker violet for labels */
+}
+
+/* Input field styling */
+.inputFieldRow input {
+    width: calc(100% - 2rem); /* Adjust width to account for padding */
+    padding: 0.5rem;
+    border: 1px solid #7e57c2; /* Violet border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Error message styling */
+.inputFieldRow p {
+    color: #d32f2f; /* Red color for error messages */
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}
+
+/* Dynamic fields container */
+.dynamicFields {
+    margin-bottom: 0.5rem;
+}
+
+/* Button styling */
+#subBtn {
+    background-color: #7e57c2; /* Violet background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: block;
+    margin: 0 auto; /* Center button horizontally */
+}
+
+/* Button hover effect */
+#subBtn:hover {
+    background-color: #6a1b9a; /* Darker violet on hover */
+    box-shadow: 0 0 10px rgba(126, 87, 194, 0.5); /* Shadow effect */
+}
+
+/* Pet input field styling */
+.petContainer .petInputField {
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for pet input fields */
+.petInputField select,
+.petInputField input {
+    width: calc(100% - 2rem); /* Adjust width to account for padding */
+    padding: 0.5rem;
+    border: 1px solid #7e57c2; /* Violet border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Radio button styling */
+.petInputField input[type='radio'] {
+    margin-right: 0.5rem;
+}
+
+/* Pet input field labels */
+.petInputField label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #5e35b1; /* Darker violet for labels */
+}
